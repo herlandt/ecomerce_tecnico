@@ -1,8 +1,11 @@
 services:
+services:
   - type: web
     name: tienda-friki
     env: php
     plan: free
+    # ¡LÍNEA AÑADIDA! Le dice a Render que el proyecto está en la raíz del repositorio.
+    rootDir: ./ 
     buildCommand: |
       composer install --no-dev --optimize-autoloader
       php artisan config:cache
