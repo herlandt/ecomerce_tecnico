@@ -13,7 +13,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
         <style>
             :root {
-                --primary-color: #FF19E4; --text-color: #E0E1E9; --bg-color: #1B0A2A; --card-bg: #2A1A4A; --border-color: #4A3A6A;
+                --primary-color: #FF19E4; --text-color: #e9e2e0ff; --bg-color: #1B0A2A; --card-bg: #2A1A4A; --border-color: #4A3A6A;
             }
             body { font-family: 'Inter', sans-serif; margin: 0; background-color: var(--bg-color); color: var(--text-color); }
             .container { max-width: 1200px; margin-left: auto; margin-right: auto; padding: 0 2rem; }
