@@ -10,7 +10,7 @@
     @else
         <h1>Nuestros Productos</h1>
     @endif
-    {{-- Contenedor de la cuadrícula (SOLO UNO) --}}
+   
     <div class="product-grid">
         @forelse ($products as $product)
             <a href="{{ route('products.show', $product) }}">

@@ -7,7 +7,7 @@
 
         <title>@yield('title', 'Tienda Friki')</title>
 
-        {{-- Aquí he movido todos nuestros estilos personalizados --}}
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
@@ -54,7 +54,7 @@
 
            <main class="container">
     
-    {{-- ¡AQUÍ PEGAS EL CÓDIGO! --}}
+  
     @if (session('success'))
         <div style="background-color: #28a745; color: white; padding: 1rem; border-radius: 5px; margin-bottom: 1.5rem; text-align: center;">
             {{ session('success') }}
@@ -66,8 +66,7 @@
             {{ session('error') }}
         </div>
     @endif
-    {{-- FIN DEL CÓDIGO A PEGAR --}}
-
+    
     @yield('content')
 </main>
         </div>

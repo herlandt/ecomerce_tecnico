@@ -10,10 +10,10 @@
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
-        {{-- ¡ESTA ES LA LÍNEA QUE FALTABA! Carga los estilos compilados. --}}
+        
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 
-        {{-- Nuestros colores personalizados --}}
+       
         <style>
             body {
                 background-color: #1B0A2A; /* Fondo oscuro */

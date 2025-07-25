@@ -13,7 +13,7 @@ class ActivationCodeSeeder extends Seeder
      */
     public function run(): void
     {
-        // Limpiamos la tabla antes de volver a llenarla para evitar duplicados
+       
         DB::table('activation_codes')->delete();
 
         // --- Códigos para Cyberpunk 2077 (product_id = 1) ---
